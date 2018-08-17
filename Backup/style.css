@@ -1,0 +1,258 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	background-color: #DDDDDD;
+}
+/****************
+    font-family: 'Slabo 27px', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'EB Garamond', serif;
+***************/
+
+
+#index_content{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;	
+}
+#index_view_login{
+	width: 320px;
+	min-height: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	border: 1px solid #E41E26;
+	text-align: center;
+	padding: 5px;
+	border-radius: 25px;
+	box-shadow: 8px 8px 12px #EC5E65;
+	font-size: 1em;
+	background-color: #EC5E65;
+	color: #FFFFFF;
+}
+#index_view_login input:hover{
+	background-color: #E5F1FB;
+	border: 2px solid #E41E26;
+}
+#index_view_login hr{
+	box-shadow: 3px 3px 1px #E41E26;
+	color: #E41E26;
+}
+.input_form{
+	width: 220px;
+}
+.index_button{
+	width: 100px;
+	height: 25px;
+}
+
+
+#main_content{
+	width: 100%;
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;	
+}
+#main_bar{
+	width: 100%;
+	height: 40px;
+	padding: 15px 0px;
+	background-color: #C34F4F;
+	color: #FFFFFF;
+	font-family: 'Merienda', cursive;
+}
+#main_bar a button{
+	float: right;
+	font-size: 0.9em;
+	width: 120px;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #EC5E65;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;	
+	margin-right: 25px;
+	font-family: 'Merienda', cursive;
+}
+#main_bar a button:hover{
+	background-color: #CDE4F8;
+	color: #0078D7;
+	border: 2px solid #0078D7;
+}
+#main_body{
+	width: 95%;
+	height: calc(100% - 106px);
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px double #000;
+	font-weight: none;
+	overflow: scroll;
+}
+.bar_side{
+	float:left;
+	width: 28%;
+	height: 100%;
+	padding: 0% 1%;
+	text-align: center;
+}
+.bar_center{
+	float:left;
+	width: 70%;
+	height: 100%;
+}
+.bar_text{
+	font-size: 1.4em;
+}
+.bar_text a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 5px;
+}
+.bar_text a:hover{
+	color: #FFF;
+	background-color: #EC5E65;
+}
+
+#list_menu {
+	width: 650px;
+	margin: 0px 0px 0px 100px;
+	padding: 0;
+	list-style-type: none;
+	font-family: 'Merienda', cursive;
+}
+#list_menu:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#list_menu > li {
+	float: left;
+}
+#list_menu > li:first-child {
+	width: 30%;
+}
+#list_menu > li:first-child + li {
+	width: 30%;
+}
+#list_menu > li:first-child + li + li {
+	width: 30%;
+}
+#list_menu > li > a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #C34F4F;
+	font-weight: bold;
+}
+#list_menu > li:hover > a {
+	background-color: #EC5E65;
+	color: #FFF;
+	border: 1px solid #FFF;
+}
+
+.mainapp_table{
+	border: 1px solid #FFF;
+	font-family: 'EB Garamond', serif;
+	border-color: #FFF;
+
+}
+.mainapp_table tr:first-child{
+	background-color: #EC5E65 !important;
+}
+.mainapp_table th{
+	padding: 5px 10px;;
+}
+.mainapp_table tr:nth-child(even) {
+	background-color: #FCF0F0;
+}
+.mainapp_table tr:nth-child(odd) {
+	background-color: #F9C4C4;
+}
+.mainapp_table tr:hover {
+	background-color: #EC5E65;
+}
+/****************
+    font-family: 'Slabo 27px', serif;
+    font-family: 'Merriweather', serif;
+    *font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    *font-family: 'Noto Serif', serif;
+    font-family: 'Merienda', cursive;
+    *font-family: 'EB Garamond', serif;
+***************/
+#account_content{
+	width: 100%;
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;	
+}
+#account_bar{
+	width: 100%;
+	height: 40px;
+	padding: 15px 0px;
+	background-color: #C34F4F;
+	color: #FFFFFF;
+	font-family: 'Merienda', cursive;
+}
+#account_bar a button{
+	float: right;
+	font-size: 0.9em;
+	width: 120px;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #EC5E65;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;	
+	margin-right: 25px;
+	font-family: 'Merienda', cursive;
+}
+#account_bar a button:hover{
+	background-color: #CDE4F8;
+	color: #0078D7;
+	border: 2px solid #0078D7;
+}
+#account_body{
+	width: 75%;
+	height: calc(100% - 106px);
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px double #000;
+	font-weight: none;
+	overflow: none;
+	background-color: #EC5E65;
+}
+#account_body p{
+	color: #FFF;
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+}
+#account_body form{
+	color: #FFF;
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 50px;
+}
+.account_button{
+	font-size: 0.8em;
+	color: #EC5E65;
+	width: 160px;
+	padding: 5px;
+	background-color: #FFF;
+	border: 2px solid #000;
+}
+#account_body form input:hover{
+	background-color: #CDE4F8;
+	color: #0078D7;
+	border: 2px solid #0078D7;
+}
