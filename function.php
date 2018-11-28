@@ -2,7 +2,7 @@
 
 function secure_access()
 {
-	if($_SERVER['REMOTE_ADDR'] != "188.65.44.17")
+	if($_SERVER['REMOTE_ADDR'] != "192.168.0.1")
 	{
 		header('Location: https://www.polskidm.com.pl/');
 		exit();
